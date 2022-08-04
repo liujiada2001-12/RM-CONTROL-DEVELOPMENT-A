@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp.sp
+"1led\startup_stm32f427xx.o"
+"1led\main.o"
+"1led\gpio.o"
+"1led\stm32f4xx_it.o"
+"1led\stm32f4xx_hal_msp.o"
+"1led\stm32f4xx_hal_tim.o"
+"1led\stm32f4xx_hal_tim_ex.o"
+"1led\stm32f4xx_hal_rcc.o"
+"1led\stm32f4xx_hal_rcc_ex.o"
+"1led\stm32f4xx_hal_flash.o"
+"1led\stm32f4xx_hal_flash_ex.o"
+"1led\stm32f4xx_hal_flash_ramfunc.o"
+"1led\stm32f4xx_hal_gpio.o"
+"1led\stm32f4xx_hal_dma_ex.o"
+"1led\stm32f4xx_hal_dma.o"
+"1led\stm32f4xx_hal_pwr.o"
+"1led\stm32f4xx_hal_pwr_ex.o"
+"1led\stm32f4xx_hal_cortex.o"
+"1led\stm32f4xx_hal.o"
+"1led\stm32f4xx_hal_exti.o"
+"1led\system_stm32f4xx.o"
+--strict --scatter "1LED\1LED.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "1LED.map" -o 1LED\1LED.axf

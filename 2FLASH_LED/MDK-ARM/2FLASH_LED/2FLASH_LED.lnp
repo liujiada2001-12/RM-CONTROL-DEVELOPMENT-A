@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp.sp
+"2flash_led\startup_stm32f427xx.o"
+"2flash_led\main.o"
+"2flash_led\gpio.o"
+"2flash_led\stm32f4xx_it.o"
+"2flash_led\stm32f4xx_hal_msp.o"
+"2flash_led\stm32f4xx_hal_tim.o"
+"2flash_led\stm32f4xx_hal_tim_ex.o"
+"2flash_led\stm32f4xx_hal_rcc.o"
+"2flash_led\stm32f4xx_hal_rcc_ex.o"
+"2flash_led\stm32f4xx_hal_flash.o"
+"2flash_led\stm32f4xx_hal_flash_ex.o"
+"2flash_led\stm32f4xx_hal_flash_ramfunc.o"
+"2flash_led\stm32f4xx_hal_gpio.o"
+"2flash_led\stm32f4xx_hal_dma_ex.o"
+"2flash_led\stm32f4xx_hal_dma.o"
+"2flash_led\stm32f4xx_hal_pwr.o"
+"2flash_led\stm32f4xx_hal_pwr_ex.o"
+"2flash_led\stm32f4xx_hal_cortex.o"
+"2flash_led\stm32f4xx_hal.o"
+"2flash_led\stm32f4xx_hal_exti.o"
+"2flash_led\system_stm32f4xx.o"
+--strict --scatter "2FLASH_LED\2FLASH_LED.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "2FLASH_LED.map" -o 2FLASH_LED\2FLASH_LED.axf

@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"5pwm_buzzer\startup_stm32f427xx.o"
+"5pwm_buzzer\main.o"
+"5pwm_buzzer\gpio.o"
+"5pwm_buzzer\tim.o"
+"5pwm_buzzer\stm32f4xx_it.o"
+"5pwm_buzzer\stm32f4xx_hal_msp.o"
+"5pwm_buzzer\stm32f4xx_hal_tim.o"
+"5pwm_buzzer\stm32f4xx_hal_tim_ex.o"
+"5pwm_buzzer\stm32f4xx_hal_rcc.o"
+"5pwm_buzzer\stm32f4xx_hal_rcc_ex.o"
+"5pwm_buzzer\stm32f4xx_hal_flash.o"
+"5pwm_buzzer\stm32f4xx_hal_flash_ex.o"
+"5pwm_buzzer\stm32f4xx_hal_flash_ramfunc.o"
+"5pwm_buzzer\stm32f4xx_hal_gpio.o"
+"5pwm_buzzer\stm32f4xx_hal_dma_ex.o"
+"5pwm_buzzer\stm32f4xx_hal_dma.o"
+"5pwm_buzzer\stm32f4xx_hal_pwr.o"
+"5pwm_buzzer\stm32f4xx_hal_pwr_ex.o"
+"5pwm_buzzer\stm32f4xx_hal_cortex.o"
+"5pwm_buzzer\stm32f4xx_hal.o"
+"5pwm_buzzer\stm32f4xx_hal_exti.o"
+"5pwm_buzzer\system_stm32f4xx.o"
+"5pwm_buzzer\bsp_buzzer.o"
+--strict --scatter "5PWM_BUZZER\5PWM_BUZZER.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "5PWM_BUZZER.map" -o 5PWM_BUZZER\5PWM_BUZZER.axf
