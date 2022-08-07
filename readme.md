@@ -19,4 +19,5 @@
 * [3.定时器闪烁LED](3TIM_LED)
 * [4.PWM控制LED亮度:呼吸灯](4PWM_LED)
 * [5.蜂鸣器](5PWM_BUZZER)
-
+* [6.舵机](6PWM_SERVO_MOTOR)
+* [7.外部中断](7KEY_EXIT)

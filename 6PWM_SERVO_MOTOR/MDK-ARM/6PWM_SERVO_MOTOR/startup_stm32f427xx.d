@@ -1,0 +1,1 @@
+6pwm_servo_motor\startup_stm32f427xx.o: startup_stm32f427xx.s

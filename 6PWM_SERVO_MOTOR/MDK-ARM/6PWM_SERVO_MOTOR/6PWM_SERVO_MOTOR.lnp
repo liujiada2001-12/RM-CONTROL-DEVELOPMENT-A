@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp.sp
+"6pwm_servo_motor\startup_stm32f427xx.o"
+"6pwm_servo_motor\main.o"
+"6pwm_servo_motor\gpio.o"
+"6pwm_servo_motor\tim.o"
+"6pwm_servo_motor\stm32f4xx_it.o"
+"6pwm_servo_motor\stm32f4xx_hal_msp.o"
+"6pwm_servo_motor\stm32f4xx_hal_tim.o"
+"6pwm_servo_motor\stm32f4xx_hal_tim_ex.o"
+"6pwm_servo_motor\stm32f4xx_hal_rcc.o"
+"6pwm_servo_motor\stm32f4xx_hal_rcc_ex.o"
+"6pwm_servo_motor\stm32f4xx_hal_flash.o"
+"6pwm_servo_motor\stm32f4xx_hal_flash_ex.o"
+"6pwm_servo_motor\stm32f4xx_hal_flash_ramfunc.o"
+"6pwm_servo_motor\stm32f4xx_hal_gpio.o"
+"6pwm_servo_motor\stm32f4xx_hal_dma_ex.o"
+"6pwm_servo_motor\stm32f4xx_hal_dma.o"
+"6pwm_servo_motor\stm32f4xx_hal_pwr.o"
+"6pwm_servo_motor\stm32f4xx_hal_pwr_ex.o"
+"6pwm_servo_motor\stm32f4xx_hal_cortex.o"
+"6pwm_servo_motor\stm32f4xx_hal.o"
+"6pwm_servo_motor\stm32f4xx_hal_exti.o"
+"6pwm_servo_motor\system_stm32f4xx.o"
+--strict --scatter "6PWM_SERVO_MOTOR\6PWM_SERVO_MOTOR.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "6PWM_SERVO_MOTOR.map" -o 6PWM_SERVO_MOTOR\6PWM_SERVO_MOTOR.axf

@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp.sp
+"7key_exit\startup_stm32f427xx.o"
+"7key_exit\main.o"
+"7key_exit\gpio.o"
+"7key_exit\stm32f4xx_it.o"
+"7key_exit\stm32f4xx_hal_msp.o"
+"7key_exit\stm32f4xx_hal_tim.o"
+"7key_exit\stm32f4xx_hal_tim_ex.o"
+"7key_exit\stm32f4xx_hal_rcc.o"
+"7key_exit\stm32f4xx_hal_rcc_ex.o"
+"7key_exit\stm32f4xx_hal_flash.o"
+"7key_exit\stm32f4xx_hal_flash_ex.o"
+"7key_exit\stm32f4xx_hal_flash_ramfunc.o"
+"7key_exit\stm32f4xx_hal_gpio.o"
+"7key_exit\stm32f4xx_hal_dma_ex.o"
+"7key_exit\stm32f4xx_hal_dma.o"
+"7key_exit\stm32f4xx_hal_pwr.o"
+"7key_exit\stm32f4xx_hal_pwr_ex.o"
+"7key_exit\stm32f4xx_hal_cortex.o"
+"7key_exit\stm32f4xx_hal.o"
+"7key_exit\stm32f4xx_hal_exti.o"
+"7key_exit\system_stm32f4xx.o"
+--strict --scatter "7KEY_EXIT\7KEY_EXIT.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "7KEY_EXIT.map" -o 7KEY_EXIT\7KEY_EXIT.axf
