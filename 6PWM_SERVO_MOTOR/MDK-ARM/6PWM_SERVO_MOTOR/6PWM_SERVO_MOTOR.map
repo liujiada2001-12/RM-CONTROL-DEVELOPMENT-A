@@ -1442,10 +1442,10 @@ Image component sizes
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
         60          6          0          0          0        851   gpio.o
-       232         16          0          0          0     733840   main.o
+       232         16          0          0          0     733792   main.o
         64         26        428          0       1536        852   startup_stm32f427xx.o
        180         28          0         12          0       9621   stm32f4xx_hal.o
-       172         14          0          0          0      33306   stm32f4xx_hal_cortex.o
+       172         14          0          0          0      33294   stm32f4xx_hal_cortex.o
        564         54          0          0          0       1564   stm32f4xx_hal_gpio.o
         48          6          0          0          0        870   stm32f4xx_hal_msp.o
        112         14          0          0          0       1304   stm32f4xx_hal_pwr_ex.o
@@ -1457,7 +1457,7 @@ Image component sizes
        236         30          0          0         72       2335   tim.o
 
     ----------------------------------------------------------------------
-      4370        416        478         16       1608     804533   Object Totals
+      4370        416        478         16       1608     804473   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         10          0          2          0          0          0   (incl. Padding)
 
@@ -1510,8 +1510,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      4978        432        478         16       1704     801453   Grand Totals
-      4978        432        478         16       1704     801453   ELF Image Totals
+      4978        432        478         16       1704     801393   Grand Totals
+      4978        432        478         16       1704     801393   ELF Image Totals
       4978        432        478         16          0          0   ROM Totals
 
 ==============================================================================
