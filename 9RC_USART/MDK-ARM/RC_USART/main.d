@@ -32,6 +32,5 @@ rc_usart\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 rc_usart\main.o: ../Core/Inc/dma.h
 rc_usart\main.o: ../Core/Inc/usart.h
 rc_usart\main.o: ../Core/Inc/gpio.h
-rc_usart\main.o: ../Bsp/bsp_rc.h
-rc_usart\main.o: ../Bsp/struct_typedef.h
 rc_usart\main.o: ../App/remote_control.h
+rc_usart\main.o: ../Bsp/struct_typedef.h

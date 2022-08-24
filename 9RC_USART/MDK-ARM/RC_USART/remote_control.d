@@ -1,7 +1,6 @@
 rc_usart\remote_control.o: ..\App\remote_control.c
 rc_usart\remote_control.o: ..\App\remote_control.h
 rc_usart\remote_control.o: ../Bsp/struct_typedef.h
-rc_usart\remote_control.o: ../Bsp/bsp_rc.h
 rc_usart\remote_control.o: ../Core/Inc/main.h
 rc_usart\remote_control.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 rc_usart\remote_control.o: ../Core/Inc/stm32f4xx_hal_conf.h

@@ -1,7 +1,7 @@
 Dependencies for Project 'RC_USART', Target 'RC_USART': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
 F (startup_stm32f427xx.s)(0x62F4FBB7)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_RC_USART-ID:\KEIL\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\KEIL\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32F427xx SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f427xx.lst --xref -o rc_usart\startup_stm32f427xx.o --depend rc_usart\startup_stm32f427xx.d)
-F (../Core/Src/main.c)(0x62F4F95D)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../App -I ../Bsp-I.\RTE\_RC_USART-ID:\KEIL\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\KEIL\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o rc_usart\main.o --omf_browse rc_usart\main.crf --depend rc_usart\main.d)
+F (../Core/Src/main.c)(0x6304D71A)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../App -I ../Bsp-I.\RTE\_RC_USART-ID:\KEIL\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\KEIL\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o rc_usart\main.o --omf_browse rc_usart\main.crf --depend rc_usart\main.d)
 I (../Core/Inc/main.h)(0x62F3803E)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62E0FB7B)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x62F4ED49)
@@ -34,9 +34,8 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62E0FB7C)
 I (../Core/Inc/dma.h)(0x62F3803D)
 I (../Core/Inc/usart.h)(0x62F3803E)
 I (../Core/Inc/gpio.h)(0x62F3803D)
-I (../Bsp/bsp_rc.h)(0x62F4F02A)
+I (../App/remote_control.h)(0x6304D703)
 I (../Bsp/struct_typedef.h)(0x61063AF7)
-I (../App/remote_control.h)(0x61063AF7)
 F (../Core/Src/gpio.c)(0x62F3803D)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../App -I ../Bsp-I.\RTE\_RC_USART-ID:\KEIL\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\KEIL\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o rc_usart\gpio.o --omf_browse rc_usart\gpio.crf --depend rc_usart\gpio.d)
 I (../Core/Inc/gpio.h)(0x62F3803D)
 I (../Core/Inc/main.h)(0x62F3803E)
@@ -685,9 +684,8 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62E0FB7C)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62E0FB7C)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62E0FB7C)
 F (..\App\remote_control.c)(0x62F4FD76)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../App -I ../Bsp-I.\RTE\_RC_USART-ID:\KEIL\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\KEIL\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o rc_usart\remote_control.o --omf_browse rc_usart\remote_control.crf --depend rc_usart\remote_control.d)
-I (..\App\remote_control.h)(0x61063AF7)
+I (..\App\remote_control.h)(0x6304D703)
 I (../Bsp/struct_typedef.h)(0x61063AF7)
-I (../Bsp/bsp_rc.h)(0x62F4F02A)
 I (../Core/Inc/main.h)(0x62F3803E)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62E0FB7B)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x62F4ED49)

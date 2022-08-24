@@ -24,7 +24,6 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "bsp_rc.h"
 #include "remote_control.h"
 /* USER CODE END Includes */
 

@@ -28,7 +28,7 @@
 #elif defined(MPU6500_USE_IIC)
 
 #endif
-
+static uint8_t        tx, rx;
 void mpu6500_GPIO_init(void)
 {
 //ÒÑ¾­ÔÚMX_GPIO_Init

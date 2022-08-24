@@ -25,6 +25,6 @@
 * [9.串口DMA中断（遥控器）](9RC_USART)
 * [10.传感器数据读取](10I2C_SPI_READ)
 * [11.IMU温控PID](11IMU_TEMP_CONTROL)
-* [12.IMU姿态解算](12IMU_INS)写得跟**一样，还待修改
+* [12.IMU姿态解算](12IMU_INS)
 * [13.CAN控制RM电机](13CAN_MOTOR)
 * [14.FreeRTOS闪烁LED](14FREERTOS_LED)
